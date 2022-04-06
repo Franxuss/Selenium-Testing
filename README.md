@@ -5,7 +5,7 @@ Objetivo: probar dos funcionalidades de la página web de Alten.es
 
 ESTRUCTURA
 
-La estructura del proyecto cumple con el patrón de diseño Page object Model (POM).
+La estructura del proyecto cumple con el patrón de diseño Page Object Model (POM).
 
 Con un objeto de página base podemos abstraer todas las acciones comunes en una ubicación 
 central y aprovecharlas en cualquier objeto de página que consideremos adecuado.
