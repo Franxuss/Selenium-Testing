@@ -5,7 +5,12 @@ Objetivo: probar dos funcionalidades de la página web de Alten.es
 
 ESTRUCTURA
 
-Disponemos del package src/main/java/pages donde se localizan la clase "Base" de la que 
+La estructura del proyecto cumple con el patrón de diseño Page object Model (POM).
+
+Con un objeto de página base podemos abstraer todas las acciones comunes en una ubicación 
+central y aprovecharlas en cualquier objeto de página que consideremos adecuado.
+
+En el package src/main/java/pages se localiza la clase "Base" de la que 
 extienden las clases "HomePage", "NewsPage" y "RegistrationPage".
 
 Para disponer de un código más limpio se han unificado todos los strings con direcciones y rutas 
